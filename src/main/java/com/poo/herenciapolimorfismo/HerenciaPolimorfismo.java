@@ -8,6 +8,8 @@ import com.poo.herenciapolimorfismo.modelo.Animal;
 import com.poo.herenciapolimorfismo.modelo.Gato;
 import com.poo.herenciapolimorfismo.modelo.Perro;
 import com.poo.herenciapolimorfismo.modelo.Pez;
+import com.poo.herenciapolimorfismo.modelo.PerroGrande;
+import com.poo.herenciapolimorfismo.modelo.Pajaro;
 
 /**
  *
@@ -34,7 +36,8 @@ Animal[] animales = {
   new Perro("Rex"),
   new Gato("Silvestre"),
   new Animal("Piolin"),
-  new  Pez ("Dory")
+  new  Pez ("Dory"),
+  new Pajaro("Kiki")
 };
 
 for (Animal animal : animales) {
